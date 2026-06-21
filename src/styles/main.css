@@ -2435,6 +2435,35 @@ select.inspector-input {
   border-color: var(--accent);
 }
 
+.ai-settings,
+.ai-provider-details,
+.ai-provider-fields {
+  display: grid;
+  gap: 10px;
+  padding: 12px 0;
+}
+
+.ai-settings select,
+.ai-settings input,
+.ai-settings textarea {
+  width: 100%;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  padding: 8px 10px;
+}
+
+.ai-loading {
+  color: var(--text-secondary);
+  padding: 24px;
+  text-align: center;
+}
+
+.ai-settings .btn {
+  justify-self: start;
+}
+
 .fb-prop-slider {
   flex: 1;
   min-width: 0;
