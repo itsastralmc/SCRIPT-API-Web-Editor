@@ -243,7 +243,7 @@ export class ScriptBuilder {
     block: ScriptBlock,
     _index: number,
     parentId: string | null,
-    parentType: ScriptBlockType | null = null
+    _parentType: ScriptBlockType | null = null
   ): HTMLElement {
     const isSelected = this.selectedBlockId === block.id;
     const isContainer = block.type === 'function' || block.type === 'if';
