@@ -1,0 +1,30 @@
+{
+  "name": "itsastralmc-script-api-web-editor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["script","api","editor","itsastralmc","javascript"],
+  "author": "ItsAstralMC",
+  "license": "MIT",
+  "description": "Browser-based Script API editor with drag-and-drop code blocks and JavaScript export.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsastralmc/SCRIPT-API-Web-Editor.git"
+  },
+  "homepage": "https://itsastralmc.github.io/SCRIPT-API-Web-Editor",
+  "devDependencies": {
+    "@types/file-saver": "^2.0.7",
+    "@types/node": "^25.5.2",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.8"
+  },
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1",
+    "monaco-editor": "^0.55.1"
+  }
+}
